@@ -1,9 +1,8 @@
-# DSAI 582: Agentic AI — Assignment 1 Research Report
+# DSAI 582: Agentic AI - Assignment 1 Research Report
 
 **Course:** DSAI 582: Agentic AI  
 **Assignment:** Assignment 1  
 **Student:** Hatice Güzel  
-**Instructor:** Dr. Adnan Jafar  
 **Date:** November 2026  
 **Model:** `Qwen/Qwen2.5-0.5B-Instruct` (Frozen weights, pure local CPU inference)  
 **Dataset:** `openai/gsm8k` (Main configuration)  
