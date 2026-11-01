@@ -1,6 +1,6 @@
-# Assignment 1 — Environment Setup & Execution Guide
+# Assignment 1 - Environment Setup & Execution Guide
 
-This document provides instructions for reproducing all experiments for **DSAI 582: Agentic AI — Assignment 1** using `Qwen/Qwen2.5-0.5B-Instruct` on the **GSM8K** dataset.
+This document provides instructions for reproducing all experiments for **DSAI 582: Agentic AI - Assignment 1** using `Qwen/Qwen2.5-0.5B-Instruct` on the **GSM8K** dataset.
 
 The code can be executed either on a **free Google Colab T4 GPU instance** or **locally on CPU/GPU**.
 
@@ -55,12 +55,12 @@ python assignment1.py
 
 | Evaluation Method | Problem Count | T4 GPU (Colab) | Local CPU |
 | :--- | :---: | :---: | :---: |
-| **Zero-Shot Prompting** | 30 questions | ~3–5 mins | ~15 mins |
+| **Zero-Shot Prompting** | 30 questions | ~3-5 mins | ~15 mins |
 | **Four-Shot Prompting** | 30 questions | ~4–6 mins | ~15 mins |
-| **Self-Consistency (4 samples, $T=0.7$)** | 30 questions ($\times 4$ paths) | ~12–15 mins | ~45 mins |
+| **Self-Consistency (4 samples, $T=0.7$)** | 30 questions ($\times 4$ paths) | ~12-15 mins | ~45 mins |
 | **Reflection / Revision (2-turn)** | 30 questions ($\times 2$ passes) | ~6–8 mins | ~20 mins |
-| **Tool-Using Agent (Safe AST Calculator)** | 30 questions | ~5–8 mins | ~15 mins |
-| **Total Benchmark Runtime** | **All 5 Methods** | **~30–45 mins** | **~1.5–2 hours** |
+| **Tool-Using Agent (Safe AST Calculator)** | 30 questions | ~5-8 mins | ~15 mins |
+| **Total Benchmark Runtime** | **All 5 Methods** | **~30-45 mins** | **~1.5-2 hours** |
 
 ---
 
